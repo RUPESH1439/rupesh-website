@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 const Home: NextPage = () => {
-	return <div className="h-full w-full bg-green flex flex-1">Hello world</div>;
+	return (
+		<div className="flex flex-1 h-screen w-screen bg-red-300">Hello world</div>
+	);
 };
 
 export default Home;
