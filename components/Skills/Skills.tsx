@@ -59,7 +59,7 @@ const SkillsList: ISkillCardProps[] = [
 ];
 
 const Skills = (): JSX.Element => (
-	<div className="flex flex-row bg-white rounded-2xl shadow-2xl">
+	<div className="flex flex-row bg-white rounded-2xl shadow-2xl transition duration-500 transform hover:-translate-y-10">
 		{SkillsList.map(
 			(
 				{ title, iconSrc, description, subtitle2, subtitle1, items2, items1 },
